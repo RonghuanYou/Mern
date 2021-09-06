@@ -6,7 +6,7 @@ const DisplayBox = (props) => {
                 props.boxes.map((boxObj, idx) => {
                     return <div 
                         key={idx}
-                        style={{ backgroundColor: boxObj.newColor, width: +boxObj.newWidth, height: parseInt(boxObj.newHeight), marginRight: 20}}> 
+                        style={{ backgroundColor: boxObj.newColor, width: boxObj.newWidth, height: boxObj.newHeight, marginRight: 20}}> 
                     </div>
                 })
             }
